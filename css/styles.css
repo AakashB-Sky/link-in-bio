@@ -3,13 +3,31 @@
     border: 1px red dashed; 
   }
 
+html {
+  min-height: 100%; /* makes body entire height of window regardless of how tall content is */
+}
+
 body {
   padding: 40px 0px;
+  min-height: 100%; /* makes body entire height of window regardless of how tall content is */
+  background: linear-gradient(180deg, #21077e, #2f067e, #3c067d, #47067a, #530776, #5d0770, #670869, #710962); /* made at https://learnui.design/tools/gradient-generator.html */
+  color: rgba(218, 251, 253, 1)
+}
+
+a {
+  color: rgba(226, 199, 54, 1);
 }
 
 .avatar-image {
   width: 128px;
   height: 128px;
-  object-fit: cover; /*preserves original aspect ratio*/
-  border-radius: 128px; /*rounds corners*/ 
+  border-radius: 128px; /*rounds corners*/
+  object-fit: cover; /*preserves original aspect ratio*/ 
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
