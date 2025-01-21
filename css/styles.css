@@ -1,5 +1,4 @@
-<style>
-  * {
-    border: 1px red dashed;
+/* The following lines add red dashed border around all elements. Comment out later */
+* {
+    border: 1px red dashed; 
   }
-</style>
