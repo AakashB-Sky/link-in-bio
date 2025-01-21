@@ -2,3 +2,14 @@
 * {
     border: 1px red dashed; 
   }
+
+body {
+  padding: 40px 0px;
+}
+
+.avatar-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover; /*preserves original aspect ratio*/
+  border-radius: 128px; /*rounds corners*/ 
+}
