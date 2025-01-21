@@ -4,12 +4,18 @@
   <head>
     <meta charset="UTF-8"> <!--this tag expands which characters we can use in our HTML document (other languages, emojis, etc.)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes web page work correctly on phones -->
+    <!-- Web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script> <!-- pulls special web font called 'Font Awesome'-->
+    <!-- End web fonts -->
     <title>Meet Aakash!</title>
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="main-container">Main container <!--contains all of the page's content-->
+    <div class="main-container"> <!--contains all of the page's content-->
     
     <div class="image-row"> <!--headshot-->
       <img class="avatar-image" src="images/aakash-headshot.jpg" alt="Headshot of Aakash Barevadia">
@@ -21,29 +27,29 @@
     
     <div class="social-icons-row"> <!--social media-->
       <a href="https://www.linkedin.com/in/aakashbarevadia/" target="_blank">
-        LinkedIn
+        <i class="fa-brands fa-linkedin">LinkedIn</i>
       </a>
       <a href="https://github.com/AakashB-Sky" target="_blank">
-        GitHub
+        <i class="fa-brands fa-github">GitHub</i>
       </a>
       <a href="https://www.facebook.com/aakash.barevadia" target="_blank">
-        FaceBook
+        <i class="fa-brands fa-linkedin">FaceBook</i>
       </a>
       <a href="https://www.instagram.com/a_a_kash/" target="_blank">
-        Instagram
+        <i class="fa-brands fa-instagram">Instagram</i>
       </a>
     </div> <!--close social media-->
     
     <div class="links-row">
       <div class="item"> <!--Favorite Movie-->
         <img class="thumbnail" src="/images/movie-icon.jpg" alt="Movie theater icon">
-        <a href="https://www.rottentomatoes.com/m/searching_2018" target="_blank">
+        <a class="link-text" href="https://www.rottentomatoes.com/m/searching_2018" target="_blank">
           My Favorite Movie
         </a>
       </div> <!--close favorite movie-->
       <div class="item"> <!--Favorite Book-->
         <img class="thumbnail" src="/images/book-icon.jpg" alt="Book icon">
-        <a href="https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo" target="_blank">
+        <a class="link-text" href="https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo" target="_blank">
           My Favorite Book
         </a>
     </div> <!--Close favorite book-->
